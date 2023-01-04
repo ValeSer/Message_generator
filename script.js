@@ -6,3 +6,4 @@ const ranEl = elements => {
     return elements[Math.floor(Math.random() * elements.length)]
 }
 
+console.log(ranEl(a) + ' ' + ranEl(b) + ' '+ ranEl(c));
